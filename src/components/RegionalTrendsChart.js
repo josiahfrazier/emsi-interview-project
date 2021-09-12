@@ -33,7 +33,7 @@ const RegionalTrendsChart = () => {
 				data: nation
 			}
 		],
-		[]
+		[region,state,nation]
 	)
 
 	const series = useMemo(
