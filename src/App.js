@@ -1,13 +1,12 @@
 import React, { useState, useEffect }  from 'react';
-// import DataProvider from './components/DataProvider.js'
 
 import ReportTitle from './components/ReportTitle.js'
 import SelectionHeadline from './components/SelectionHeadline.js'
 import Summary from './components/Summary.js'
+import RegionalTrends from './components/RegionalTrends.js'
+import IndOccComparison from './components/IndOccComparison.js'
 
 export const DataContext = React.createContext(null);
-
-
 
 function App() {
 
@@ -35,7 +34,15 @@ function App() {
         <div className="App">
           <ReportTitle />
           <SelectionHeadline />
-          <Summary />
+          <div className="chunk">
+            <Summary />
+          </div>
+          <div className="chunk">
+            <RegionalTrends />
+          </div>
+          <div className="chunk">
+            <IndOccComparison />
+          </div>
         </div>
       </DataContext.Provider>
     )

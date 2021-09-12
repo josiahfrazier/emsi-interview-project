@@ -1,8 +1,8 @@
 const ReportTitle = () => {
 	return (
-		<p>
+		<h3>
 	        Occupation Overview
-	    </p>
+	    </h3>
 	)
 }
 
