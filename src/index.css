@@ -23,7 +23,7 @@ span {
 }
 
 .chart {
-  width: 400px;
+  width: 100%;
   height: 300px;
 }
 .chunk {

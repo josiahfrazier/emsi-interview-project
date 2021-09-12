@@ -21,8 +21,8 @@ function App() {
   }, [])
 
   const fetchOccDataJSON = async () => {
-    const fetched = await fetch('http://localhost:5432/all')
-    // const fetched = await fetch('https://run.mocky.io/v3/a2cc3707-8691-4188-8413-6183a7bb3d32')
+    // const fetched = await fetch('http://localhost:5432/all')
+    const fetched = await fetch('https://run.mocky.io/v3/a2cc3707-8691-4188-8413-6183a7bb3d32')
     const data = await fetched.json()
 
     return data

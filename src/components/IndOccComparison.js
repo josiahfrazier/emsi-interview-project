@@ -38,12 +38,12 @@ const IndOccComparison = () => {
 				percent_total_occ_ind: percent_total_occ_ind
 			}
 		}
-		console.log(rows)
+
 		return rows
 	}
 
 	const tableData = rowOccIndBuild(data.employing_industries.industries, data.employing_industries.jobs)
-console.log(tableData)
+
 	return (
 		<>
 			<h4>

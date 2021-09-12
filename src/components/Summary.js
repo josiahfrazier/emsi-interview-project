@@ -9,9 +9,9 @@ const Summary = () => {
 
 	return (
 		<>
-			<p>
+			<h4>
 				Occupation Summary for {data.occupation.title}
-			</p>
+			</h4>
 			<div className='summary'>
 				<SummaryJobs />
 				
