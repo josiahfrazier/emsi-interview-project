@@ -10,14 +10,7 @@ body {
   margin: 0;
   outline:0;
   padding:10px;
-  /*vertical-align:baseline;*/
 }
-
-/*code {
-  font-family: Lato, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}*/
-
 
 h1,h2,h3,h4,p {
   border: 0px;
